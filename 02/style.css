@@ -1,0 +1,22 @@
+
+
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 50px;
+}
+.styletypenone {
+    list-style-type: none;
+    /* Убираем маркеры */
+  }
+  ul, ol {
+    margin-left: 0;
+    /* Отступ слева в браузере IE и Opera */
+    padding-left: 0;
+    /* Отступ слева в браузере Firefox, Safari, Chrome */
+  }
+  .Externallinks{
+    font-style: italic;
+  }
+li{
+    list-style-position: inside;
+}
