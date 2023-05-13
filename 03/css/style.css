@@ -1,0 +1,91 @@
+body{
+    width: 100%;
+    background-color: #536f70;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+div{
+    width: 400px;
+    height: 200px;
+    border: 2px solid #888888;
+    box-shadow: 5px 10px rgba(0, 0, 0, 0.4);
+    border-radius: 10px;
+    padding: 25px;
+    margin: 10px;
+}
+.enter_text {
+    background-color: #ac7777;
+    color: #024141;
+}
+.enter_pass {
+    background-color: #b05656;
+    color: #8e9d9d;
+}
+.send {
+    background-color: #d52727;
+    color: #2bed19;
+}
+.reset {
+    background-color: #7b1313;
+}
+.reset h2{
+    color: #d9aeae;
+}
+.radio_button {
+    background-color: #e68014;
+}
+.checkbox {
+    background-color: #b66610;
+}
+.button {
+    background-color: #7f460a;
+}
+.color {
+    background-color: #502c07;
+}
+.birthday {
+    background-color: #ccda13;
+}
+.datemax {
+    background-color: #ae9c10;
+}
+.datetime_local {
+    background-color: #7b6d05;
+}
+.email {
+    background-color: #dad083;
+}
+.image {
+    background-color: #5f5a31;
+}
+.file {
+    background-color: #2bed19;
+}
+.hidden {
+    background-color: #22a916;
+}
+.month {
+    background-color: #1a8610;
+}
+.number {
+    background-color: #a2e19d;
+}
+.range {
+    background-color: #19eded;
+}
+.search {
+    background-color: #16e4e4;
+}
+.tel {
+    background-color: #179b9b;
+}
+.time {
+    background-color: #a3e8e8;
+}
+.homepage {
+    background-color: #024141;
+}
+.week {
+    background-color: #8e9d9d;
+} 
