@@ -1,0 +1,9 @@
+@font-face {
+  font-family: 'PostNoBillsJaffna-Bold';
+  src: url(./PostNoBillsJaffna-Bold.eot);
+  src: url(./PostNoBillsJaffna-Bold.eot?#iefix) format('embedded-opentype'),
+       url(./PostNoBillsJaffna-Bold.otf) format('otf'),
+       url(./PostNoBillsJaffna-Bold.svg#PostNoBillsJaffna-Bold) format('svg'),
+       url(./PostNoBillsJaffna-Bold.woff) format('woff'),
+       url(./PostNoBillsJaffna-Bold.woff2) format('woff2');
+}

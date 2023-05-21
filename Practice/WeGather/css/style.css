@@ -1,0 +1,209 @@
+
+/*Обнуление*/
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+*,*:before,*:after{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+
+nav,footer,header,aside{display: block;}
+
+html,body{
+    font-family: Poppins;
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+input,button,textarea{font-family:inherit;}
+
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
+/*--------------------*/
+
+body{
+    display: flex;
+    flex-direction: column;
+}
+.main{
+    flex: 0 1 auto;
+}
+.container{
+    max-width: 1680px;
+    margin: 0 auto;
+}
+
+/* ======================header===================================== */
+.header {
+    
+}
+.header_body_flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header_body {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.header_body_logo {
+    display: block;
+    padding: 60px 20px;
+}
+.header_body_nav {
+    display: flex;
+
+}
+.header_body_nav_list {
+    display: flex;
+    align-items: center;
+    gap: 120px;
+}
+.header_body_nav_item {
+    font-size: 24px;
+    line-height: 36px;    
+    transition: all 0.3s ease;
+    white-space: nowrap;
+    
+}
+.header_body_nav_item a{
+    color: #000;
+}
+.header_body_nav_item:hover{
+    transform: scale(1.2);
+    text-shadow: 5px 5px 3px rgb(180, 180, 180);
+}
+.button{
+    
+       
+}
+.header_button {
+    margin: 0 20px 0 190px;   
+}
+.header_button a{
+    background: #147B43;
+    white-space: nowrap;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    text-align: center;
+    color: #F1F8F4;
+    border-radius: 35px;
+    padding: 20px 25px;
+    transition: all 0.4s ease; 
+    display: block;
+    width: 200px;
+}
+.button a:hover{
+    background: #F1F8F4;
+    color: #147B43;
+    transform: scale(1.04);
+    box-shadow: 5px 5px 5px #d4d4d4;
+    border: 1px solid #d4d4d4;
+}
+
+/* ======================main===================================== */
+
+.main_body {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 175px;
+    height: 700px;
+}
+.main_body__title{
+    padding: 190px 0 50px 0;
+    
+}
+.main_body__title{
+    background: url('../img/Vector1.png') 24% 18% no-repeat;
+}
+.main_body__title h1 {
+    font-size: 55px;
+    font-weight: 700;
+    line-height: 83px;
+    text-align: left;    
+}
+.main_body__button{
+    margin: 50px 0;
+}
+.main_body__button a{
+    background: #147B43;
+    white-space: nowrap;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    text-align: center;
+    color: #F1F8F4;
+    border-radius: 35px;
+    padding: 20px 25px;
+    transition: all 0.4s ease; 
+    display: block;
+    width: 200px;
+}
+.main_body__button a:hover{
+    background: #F1F8F4;
+    color: #147B43;
+    transform: scale(1.04);
+    box-shadow: 5px 5px 5px #d4d4d4;
+    border: 1px solid #d4d4d4;
+}
+
+.main_body__picture {
+    margin-right: 80px;
+}
+/* ======================footer===================================== */
+.footer {
+    padding-bottom: 50px;
+}
+.container {
+}
+.footer_body_list {
+    display: flex;
+    justify-content: space-between;
+}
+.footer_body_item {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer_body_title {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 54px;
+    text-align: left;
+}
+.footer_body_item a{
+font-size: 24px;
+font-weight: 400;
+line-height: 36px;
+text-align: center;
+color: #000;
+transition: all 0.3s ease;
+}
+.footer_body_item a:hover{
+    text-shadow: 5px 5px 3px rgb(180, 180, 180);
+    transform: scale(1.2);
+}
+
+
+
+
