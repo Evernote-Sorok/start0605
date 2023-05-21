@@ -198,6 +198,7 @@ line-height: 36px;
 text-align: center;
 color: #000;
 transition: all 0.3s ease;
+display: block;
 }
 .footer_body_item a:hover{
     text-shadow: 5px 5px 3px rgb(180, 180, 180);
