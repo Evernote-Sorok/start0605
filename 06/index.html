@@ -8,52 +8,92 @@
     <link rel="stylesheet" href="css/style.css">
     <link href="https://fonts.googleapis.com/css?family=DM+Sans:regular,700&display=swap" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:regular,600,700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" 
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Document</title>
 </head>
 <body>
-    <header class="header">        
-        <div class="header_body">
-            <div class="header__logo logo">
-                <p>QWER<span>y</span></p>
-            </div>
-            <div class="header__nav">
-                <ul class="nav__list">
-                    <li class="nav__item"><a href="#">Information</a></li>
-                    <li class="nav__item"><a href="#">About us</a></li>
-                    <li class="nav__item"><a href="#">Culture</a></li>
-                </ul>
-            </div>
-            <div class="header__search">
-                <button><img src="img/icons/cart.svg" alt="q"></button>
-                <input placeholder="Search" type="search">                
-            </div>
-        </div>        
-    </header>
     <div class="main">
+        <header class="header">        
+            <div class="header_body">
+                <div class="header__logo logo">
+                    <p>QWER<span>y</span></p>
+                </div>
+                <div class="header__nav">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#">Information</a></li>
+                        <li class="nav__item"><a href="#">About us</a></li>
+                        <li class="nav__item"><a href="#">Culture</a></li>
+                    </ul>
+                </div>
+                <div class="header__search">
+                    <button><img src="img/icons/cart.svg" alt="q"></button>
+                    <input placeholder="Search" type="search">                
+                </div>
+            </div>        
+        </header>
         <section class="discover">
             <div class="container">
                 <div class="sidebar">
                     <ul class="sidebar__list">
                         <li class="sidebar__item">Follow us</li>
-                        <li class="sidebar__item"><a href="#"><img src="img/icons/inst.svg" alt=""></a></li>
-                        <li class="sidebar__item"><a href="#"><img src="img/icons/twitter.svg" alt=""></a></li>
-                        <li class="sidebar__item"><a href="#"><img src="img/icons/Facebook.svg" alt=""></a></li>                       
+                        <li class="sidebar__item"><a href="#"><i class="fa-brands fa-instagram fa-lg" style="color: #ffffff;"></i></a></li>
+                        <li class="sidebar__item"><a href="#"><i class="fa-brands fa-twitter fa-lg" style="color: #ffffff;"></i></a></li>
+                        <li class="sidebar__item"><a href="#"><i class="fa-brands fa-facebook-f fa-lg" style="color: #ffffff;"></i></a></li>                       
                     </ul>
                 </div>
                 <div class="discover__body">
                     <div class="discover__body_blok">
-                        <p>explore the Nature Beauty</p>
-                        <h1>Discover</h1>
-                        <h2>Wonderful Indonesia</h2>
+                        <p class="body_blok__label label">explore the Nature Beauty</p>
+                        <h1 class="body_blok__title title">Discover</h1>
+                        <h2 class="body_blok__subtitle subtitle">Wonderful Indonesia</h2>
                     </div>
                     <a href="#">Scroll down</a>
                 </div>                
             </div>
         </section>
-        <section class="2">2</section>
-        <section class="3">2</section>
-        <section class="4">2</section>
     </div>
+    <section class="holiday">
+        <div class="container">
+            <div class="holiday_body">
+                <div class="holiday__image">
+                    <img src="img/04.jpg" alt="02">
+                </div>
+                <div class="holiday_block">
+                    <p class="holiday_block__label label">EAST nUSA TENGGARA</p>
+                    <h2 class="holiday_block__subtitle subtitle">Have you enjoyed your holiday?</h2>
+                    <p class="holiday_block__text text">You will be amazed if you take part in this sailing Komodo island tour package. 
+                        So it is also mandatory for you, besides enjoying Komodo tourism on Komodo Island, 
+                        you also have to taste the marine tourism.  The beautiful waters of Komodo will make 
+                        you meet many travelers from other countries.
+                    </p>
+                    <a class="holiday_block__link link" href="#">read more</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="bromo">
+        <div class="container">
+            <div class="bromo_body">
+                <div class="bromo__slider">
+                    <div class="bromo__slide">
+                        <a class="slide__arrow_left" href="#"><i class="fa-solid fa-chevron-left" style="color: #ffffff;"></i></a>
+                        <a class="slide__arrow_right" href="#"><i class="fa-solid fa-chevron-right" style="color: #ffffff;"></i></a>
+                        <p class="bromo__label label">Bromo</p>
+                        <h2 class="bromo__subtitle subtitle">Steady your steps, we<br> will climb together!</h2>
+                        <p class="bromo__text text">Enjoying the vast expanse of the sea of ​​​​sand, witnessing 
+                            the splendor of Mount Semeru that soars into the sky, and gazing at the beauty of 
+                            the su n moving out of its bed or otherwise enjoying the dim twilight from the 
+                            Bromo ridge is an unforgettable experience when visiting Bromo.
+                        </p>
+                        <a class="slide__link link" href="#">read more</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="4">2</section>
     <footer class="footer">3</footer>
 </body>
 </html>
