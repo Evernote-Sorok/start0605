@@ -466,6 +466,10 @@ line-height: 87px;
    border: none;
    background: #000;
 }
+.form_blok__input:focus{
+    border: none;
+    background: #000;
+ }
 
 
 .footer__links_blok {
