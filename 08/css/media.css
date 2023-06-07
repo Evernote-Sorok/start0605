@@ -1,0 +1,216 @@
+/* -----------------header------------------------------------------------- */
+@media(max-width: 1400px){
+    .title {
+        font-size: 3.8rem;
+    }
+    .title span{
+        font-size: 4.3rem;
+    }
+    .aside {
+        top: 30%;
+    }
+}
+
+@media(max-width: 850px){
+    html,body{
+        font-size: 14px;
+    }
+    .aside {
+        display: none;
+    }
+    .discover__main_block {
+        padding: 20.5% 0 10.5% 0;  
+        max-width: 54%;
+        min-width: 40%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .header {
+        padding: 35px 40px;
+    }
+    .heaader__burger_menu {
+        display: block;
+    }
+    .header__navigation {
+        display: none;
+    }
+    .title {
+        text-align: center;
+        font-size: 3rem;
+        line-height: 3.5rem;
+    }
+    .title span{
+        font-size: 3.5rem;
+        line-height: 3.8rem;
+    }
+    .subtitle {
+        display: inline;
+        align-items: center;
+        font-size: 0.7rem;
+        letter-spacing: 4px;
+        padding-left: 0;
+    }
+    .subtitle::before{
+        content: ' ';
+        position: absolute;
+        top: 150%;
+        left: 40%;
+        width: 52px;
+        height: 2px;
+        background: #FFC178;
+    }
+    .scroll {
+        text-align: center;
+        font-size: 1.3rem;
+    }
+    .scroll::after{
+        right: -1.8rem;
+        width: 1.3rem;
+        height: 1.8rem;
+    }
+}
+@media(max-width: 650px){
+    .header__search {
+        display: none;
+    }
+    .title {
+        font-size: 1.8rem;
+        line-height: 2rem;
+    }
+    .title span{
+        font-size: 2rem;
+        line-height: 2.3rem;
+    }
+    html,body{
+        font-size: 12px;
+    }
+    .scroll {
+        font-size: 1rem;
+    }
+    .scroll::after{
+        right: -0.5rem;
+        width: 1.3rem;
+        height: 1.8rem;
+    }
+}        
+/* ---------------------------------------------------- */
+@media(max-width: 1285px){
+    .blok__title {
+        font-size: 2.8rem;
+        line-height: 3rem;
+    }
+}
+@media(max-width: 1130px){
+    .holiday_body {
+        top: -150px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        gap: 30px;
+    }
+    .holiday__image {
+        order: 2;
+    }
+    .holiday__blok {
+       order: 1;
+    }
+}
+@media(max-width: 850px){
+    html,body{
+        font-size: 14px;
+    }
+    .holiday_body {
+        top: -50px;
+    }
+    .holiday__blok {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+     }
+     .blok__subtitle {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .blok__subtitle::before{
+        content: ' ';
+        position: absolute;
+        top: 150%;
+        left: 47px;
+        width: 72px;
+        height: 2px;
+        background: #FFC178;
+    }
+     .holiday__image img{
+        max-width: 100%;
+    }
+    .holiday__image {
+        align-items: center;
+        justify-content: center;
+        width: 90%;
+        text-align: center;
+    }
+    .text {
+        text-align: center;
+    }
+    .read a::after{
+        content: '';
+        position: absolute;
+        width: 1.9rem;
+        height: 1.3rem;
+        top: 0.25em;
+        right: -2.8em;
+        width: 2rem;
+    }
+}
+@media(max-width: 650px){
+    html,body{
+        font-size: 12px;
+    }
+    .blok__title {
+        font-size: 1.8rem;
+        line-height: 2rem;
+    }
+    .holiday_body {
+        top: 0px;
+    }
+    .read a::after{
+        content: '';
+        position: absolute;
+        width: 2.3rem;
+        height: 1.3rem;
+        top: 0;
+        right: -2.7em;
+    }
+}
+@media(max-width: 1090px){
+    
+}
+
+@media(max-width: 850px){
+    .bromo_body__subtitle::after{
+       display: none;
+    }
+    .bromo_body__subtitle::before{
+        top: 100%;
+        left: 0;
+        width: 100%;
+    }
+}
+@media(max-width: 650px){
+    .bromo_body__text {
+        max-width: 100%;
+    }
+    
+    
+}
+@media(max-width: 400px){
+    .bromo_body__subtitle {
+        color: #ffe2bf;
+    }
+}
+

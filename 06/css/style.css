@@ -13,12 +13,13 @@ body{
 .main{
     flex: 1 1 auto;
     padding: 0 85px;
-    background: url('../img/01.jpg') 0 0/cover no-repeat;
-    height: 1573px;
+    background: url('../img/01.jpg') 0 0/100% auto no-repeat;
+    max-height: 100%;
+    object-position: center;
 }
 /* -----------------------header------------------------------------------------- */
 .container {
-    max-width: 1463px;
+    max-width: 1750px;
     margin: 0 auto;
     padding: 0 15px;
 }
@@ -54,8 +55,7 @@ body{
     line-height: 25px;
 }
 .header__search {
-    display: flex;
-    align-items: center;
+    display: block;
 }
 .header__search button{
     background: transparent;
@@ -245,12 +245,6 @@ line-height: 87px;
     max-width: 100%;
     padding-bottom: 250px;
 }
-.container {
-}
-.bromo_body {
-}
-.bromo__slider {
-}
 .bromo__slide {
     background: url('../img/02.jpg') 0 0/cover no-repeat;
     width: 1461px;
@@ -320,8 +314,6 @@ line-height: 87px;
     display: block;
     margin: 40px auto;
     position: relative;
-}
-.link {
 }
 .slide__link::after{
     display: inline-block;
@@ -431,9 +423,6 @@ line-height: 87px;
     padding: 24px 70px;
     display: block;
 }
-
-.footer__form_blok {
-}
 .form_blok__subtitle {
     width: 367px;
     font-size: 36px;
@@ -518,15 +507,10 @@ line-height: 87px;
     color: #fff;
     text-decoration: none;
 }
-.policy__icons {
-}
 .icons__list {
     display: flex;
     gap: 50px;
 }
-.icons__item {
-}
-
 .copy {
     text-align: center;
     color: #8f8f8f;
