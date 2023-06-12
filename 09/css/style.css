@@ -1,0 +1,109 @@
+*{
+    box-sizing: border-box;
+}
+html,body{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    font-weight: normal;
+    color: #48555B;
+}
+@font-face {
+    font-family: 'bebas_neuebold';
+    src: url('../fonts/bebasneue_bold-webfont.woff2') format('woff2'),
+         url('../fonts/bebasneue_bold-webfont.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+
+}
+.container{
+    max-width: 940px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+/* ---------------------------------------------------------------------- */
+/* 
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'bebas_neuebold', sans-serif; 
+*/
+/* 
+    700	Bold
+    600	Semi Bold
+    400	Normal
+    800	Extra Bold 
+*/
+/* ---------------------header------------------------------------------------ */
+
+.header {
+    background: url("../img/partner/bg.jpg");
+    min-width: 100%;
+    background-size: cover;
+    background-position: top center;
+}
+.header_body {
+    padding: 3.5% 0 7.2% 0;
+}
+.header__logo {
+    text-align: center;
+    margin-bottom: 33%;
+}
+.logo {
+}
+.header_blok {
+}
+.header__title {
+    color: #fff;
+    text-align: center;
+    font-family: 'bebas_neuebold';
+    font-size: 4.6rem;
+    line-height: 5.38rem;
+    letter-spacing: 0.4rem;
+}
+.header__subtitle {
+    color: #fff;
+    text-align: center;
+    font-size: 1.23rem;
+    line-height: 1.46rem;
+    margin-bottom: 23%;
+}
+.header_scroll {
+    color: #fff;
+    font-size: 0.84rem;
+    line-height: 1rem;
+    letter-spacing: 0.28rem;
+    text-align: center;
+}
+/* -----------------story------------------------------------------- */
+
+.story {
+}
+.story__nav {
+    padding: 1.92rem 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo {
+}
+.nav_blok__list {
+    display: flex;
+    gap: 2.69rem;
+}
+.nav_blok__item a{
+    font-size: 0.92rem;
+    line-height: 1.07rem;
+    letter-spacing: 0.08rem;
+    text-align: center;
+    color: #48555B;
+    text-decoration: none;
+    font-weight: 600;
+}
+.nav_blok__item_active a {
+    color: #00A4E5;
+    text-decoration: none;
+    font-weight: 600;
+}
+.nav_blok__burger{
+    display: none;
+}
+.story__blok {
+}

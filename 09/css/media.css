@@ -1,0 +1,16 @@
+
+/* ---------------------header------------------------------------------------ */
+@media(max-width: 850px){
+    html,body{
+        font-size: 11px;
+    }
+}
+/* ---------------------header------------------------------------------------ */
+@media(max-width: 600px){
+    .nav_blok__burger{
+    display: block;
+    }
+    .nav_blok__list {
+        display: none;
+    }
+}

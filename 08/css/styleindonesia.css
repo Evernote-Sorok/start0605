@@ -8,6 +8,7 @@ body{
 }
 html,body{
     font-family: 'Open Sans', sans-serif;
+    /* font-family: 'DM Sans', sans-serif; */
     font-weight: 400;
     font-size: 18px;
     box-sizing: border-box;
@@ -74,8 +75,8 @@ html,body{
 .aside {
     z-index: 5;
     position: fixed;
-    top: 50%;
-    left: 80px;
+    top: 30%;
+    left: 1%;
     writing-mode: vertical-rl;
 }
 .saide__list {
@@ -116,6 +117,7 @@ html,body{
     position: absolute;
     top: 50%;
     left: 0;
+    margin: 0 auto;
     width: 72px;
     height: 2px;
     background: #FFC178;
@@ -188,7 +190,6 @@ html,body{
 .subtitle {
 }
 .blok__title {
-    max-width: 60%;
     white-space: normal;
     margin-bottom: 27px;
 }
@@ -305,4 +306,170 @@ html,body{
 }
 .read {
     margin-bottom: 1.2rem;
+}
+/* ----------------culture------------------------------------ */
+
+.culture {
+    background: #000;
+}
+.culture_body {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.culture__blok {
+    max-width: 630px;
+}
+.culture__image  {
+    flex: 0 1 41%;
+    margin-bottom: 5%;
+}
+.culture__image img{
+    max-width: 100%;
+}
+/* ----------------footer_top------------------------------------ */
+.footer {
+    background: #000;
+}
+.footer_top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #979797;
+}
+.footer_top__logo {
+    font-size: 2.66rem;
+    font-weight: 700;
+    line-height: 3.61rem;
+    letter-spacing: 0.01em;
+    color: #fff;
+}
+.footer_top__logo span{
+    text-transform: uppercase;
+}
+.footer_top__blok {
+    display: flex;
+    gap: 3.05rem;
+    margin-top: 1.66rem;
+        margin-bottom: 1.66rem;
+}
+.footer_top__blok span{
+    color: #fff;
+    display: flex;
+    align-items: center;
+}
+.footer_top__blok a{
+    display: block;
+    text-decoration: none;
+    color: #000;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 0.94rem;
+    font-weight: 700;
+    line-height: 1.22rem;
+    background-color: #FFA343;
+    padding: 1.33rem 3.88rem;
+    border-radius: 0.44rem;
+    transition: all 0.5s ease-out;;
+}
+.footer_top__blok a:hover{
+    background-color: #b37533;
+    transform: scale(1.1);
+}
+/* -------------------footer_middle-------------------------------------- */
+.footer_middle {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 1rem;
+    margin: 3.05rem 0;
+}
+.footer_middle__form {
+    max-width: 400px;
+}
+.form-label {
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 2.72rem;
+    letter-spacing: -0.30000001192092896px;
+    color: #fff;
+}
+.form-control {
+    background: transparent;
+    border: none;
+    color: #fff;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 0.83rem;
+    font-weight: 400;
+    line-height: 1.11rem;
+    letter-spacing: -0.20454545319080353px;
+    color: #fff;
+    width: 80%;
+    height: 3.88rem;
+}
+input::placeholder{
+    font-family: 'DM Sans', sans-serif;
+    font-size: 0.83rem;
+    font-weight: 400;
+    line-height: 1.11rem;
+    letter-spacing: -0.20454545319080353px;
+    color: #D9D9D9;
+}
+.btn {
+    background: #FFA343;
+    width: 3.88rem;
+    height: 3.88rem;
+    border-radius: 0.44rem 0.44rem 0 0;
+    border: none;
+}
+.footer_middle__links {
+    display: flex;
+    justify-content: space-between;
+    gap: 6rem;
+   }
+.links__column {
+}
+
+.column__link:first-child{
+    font-size: 1.11rem;
+    font-weight: 700;
+    letter-spacing: -0.23181818425655365px;
+    color: #FFD1A0;
+}
+.column__link {
+    font-size: 1.05rem;
+    letter-spacing: -0.20454545319080353px;
+    margin-bottom: 1.94rem;
+}
+.column__link a{
+    color: #fff;
+    text-decoration: none;
+}
+/* -------------------footer_bottom----------------------------- */
+.footer_bottom {
+    display: flex;
+    justify-content: space-between;
+}
+.terms_blok_item{
+    color: #fff;
+}
+.terms_blok{
+    display: flex;
+    gap: 2.7rem;
+}
+.social__blok {
+    display: flex;
+    gap: 2.77rem;
+}
+.social__link {
+}
+.copy{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1.77rem;
+    color: #D9D9D9;
+    margin-top: 10%;
+    margin-bottom: 4%;
 }

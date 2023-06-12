@@ -187,10 +187,6 @@
         right: -2.7em;
     }
 }
-@media(max-width: 1090px){
-    
-}
-
 @media(max-width: 850px){
     .bromo_body__subtitle::after{
        display: none;
@@ -214,3 +210,88 @@
     }
 }
 
+@media(max-width: 1130px){
+    .culture_body {
+        padding: 5% 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+@media(max-width: 850px){   
+    .blok__subtitle_culture{
+        display: flex;
+        flex-direction: column;
+    } 
+    .blok__subtitle_culture::before{
+        content: ' ';
+        position: relative;
+        top: 39px;
+        left: 0;
+        width: 72px;
+        height: 2px;
+        background: #FFC178;
+    }
+    .culture__blok {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+/* --------------footer_top------------------- */
+
+@media(max-width: 850px){   
+    .footer_top {
+        display: flex;
+        flex-direction: column;
+    }
+    .footer_top__blok{
+        margin-top: 1.66rem;
+        margin-bottom: 1.66rem;
+    }
+}
+
+/* --------------footer_middle------------------- */
+@media(max-width: 1130px){
+    .footer_middle__links {
+        gap: 4rem;
+       }
+}
+@media(max-width: 1030px){
+    .footer_middle__links {
+        gap: 2rem;
+       }
+}
+@media(max-width: 850px){   
+    .footer_middle {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer_middle__form {
+        margin-bottom: 2.7rem;
+    }
+    .footer_middle__links {
+        gap: 6rem;
+       }
+}
+@media(max-width: 400px){   
+    .footer_middle__links {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        gap: 4rem;
+       }
+}
+/* -------------footer_bottom----------- */
+@media(max-width: 500px){   
+    .footer_bottom {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }.social__blok {
+        margin: 2.77rem 0;
+    }
+}
