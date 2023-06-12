@@ -14,3 +14,105 @@
         display: none;
     }
 }
+/* ------------------story__blok--------------- */
+@media(max-width: 764px){
+    .story__blok_body {
+        flex-direction: column;
+        align-items: center;
+    }
+    .story__blok_content {
+        max-width: 80%;
+        text-align: center;
+    }
+    .story__blok_title2 {
+        margin-bottom: 5.6rem;
+    }
+}
+@media(max-width: 550px){
+    .story__blok_images {
+        display: flex;
+        flex-direction: column;
+        gap: 1.53rem;
+    }
+    .blok_images__item {
+        max-width: 100%;
+        position: relative;
+    }
+}
+/* ------------------capability_top--------------- */
+
+
+@media(max-width: 764px){
+    .capability_top {
+        flex-direction: column;
+    }
+    .capability_blok{
+       flex-direction: column;
+    }
+    .capability__title2{
+        margin-bottom: 5.6rem;
+    }
+    .capability__title2::after{
+        margin: 0 auto; 
+    }
+    .capability__text {
+        font-size: 1rem;
+        text-align: center;
+        margin-bottom: 2rem;
+    }
+}
+/* ------------------capability_main--------------- */
+@media(max-width: 700px){
+    .capability_main {
+        display: grid;
+        grid-template-columns: 70%;
+        grid-template-rows: 1fr 1fr 1fr;
+        column-gap: 28px;
+        row-gap: 28px;
+        align-items: center;
+        justify-content: center;
+    }
+    .capability_main__card{
+        text-align: center;
+    }
+    .capability_top {
+        margin-bottom: 10%;
+    }
+}
+/* -------------footer------------------------- */
+@media(max-width: 678px){
+    .form{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    .input_label {
+         margin-right: 0;
+         margin-bottom: 20px;
+     }
+     .btn {
+        width: 250px;
+        margin-top: 10px;
+    }
+    .form-control::placeholder{
+        text-align: center;
+        
+    }
+}
+
+@media(max-width: 878px){
+    .footer_blok {
+        display: grid;
+        grid-template-columns:  82%;
+        grid-template-rows: auto;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    .footer_blok_list {
+        gap: 30px;
+    }
+}
+
