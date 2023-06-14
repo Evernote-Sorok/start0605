@@ -1,0 +1,103 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+}
+
+@font-face {font-family: "YD Gothic 500";
+    src: url("../fonts/gothic/4339eced15589d2e94bf76fa75b1786f.eot"); /* IE9*/
+    src: url("../fonts/gothic/4339eced15589d2e94bf76fa75b1786f.eot") format("embedded-opentype"), /* IE6-IE8 */
+    url("../fonts/gothic/4339eced15589d2e94bf76fa75b1786f.woff2") format("woff2"), /* chrome、firefox */
+    url("../fonts/gothic/4339eced15589d2e94bf76fa75b1786f.woff") format("woff"), /* chrome、firefox */
+    url("../fonts/gothic/4339eced15589d2e94bf76fa75b1786f.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+    url("../fonts/gothic/4339eced15589d2e94bf76fa75b1786f.svg#YDGothic 500 W36 50") format("svg"); /* iOS 4.1- */
+  }
+  @font-face {
+    font-family: 'ShadowsIntoLight';
+    src: url(..//fonts/shadows/ShadowsIntoLight.eot);
+    src: url(..//fonts/shadows/ShadowsIntoLight.eot?#iefix) format('embedded-opentype'),
+         url(..//fonts/shadows/ShadowsIntoLight.woff2) format('woff2'),
+         url(..//fonts/shadows/ShadowsIntoLight.woff) format('woff'),
+         url(..//fonts/shadows/ShadowsIntoLight.ttf) format('truetype'),
+         url(..//fonts/shadows/ShadowsIntoLight.svg#ShadowsIntoLight) format('svg'),
+         url(..//fonts/shadows/ShadowsIntoLight.otf) format('otf');
+  }
+  /* :root{
+    --bs-body-font-family: "YD Gothic 500", sans-serif;
+  } */
+  /*    font-family: 'georgia-regular', sans-serif; 
+        font-family: "YD Gothic 500", sans-serif;
+        font-family: 'ShadowsIntoLight';
+        */
+html,body{
+    font-family: "YD Gothic 500", serif !important;
+    font-size: 18px;
+    font-weight: 500;
+}
+/* -------------------- */
+.header {
+    background: #668E68;
+    padding: 25px 0;
+}
+.header_blok {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header_blok__logo {
+    font-family: 'georgia-regular', serif;
+    font-size: 2.44rem;
+    font-weight: 400;
+    line-height: 2.77rem;
+    color: #fff;
+
+}
+.header_blok__nav_list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+.nav_list__item {
+    font-family: "YD Gothic 500", sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.61rem;
+    color: #fff;
+}
+.burger_menu{
+    display: none;
+}
+/* --------grand-open---------- */
+.grand-open {
+    background: url("../img/coffee\ 1.png");
+    max-width: 100%;
+    background-size: cover;
+    background-position: center center;
+}
+.grand-open__title {
+    text-align: center;
+    font-family: 'ShadowsIntoLight';
+    font-size: 6.11rem;
+    font-weight: 400;
+    line-height: 9.83rem;
+    color: #fff;
+    padding: 9.5rem 0;
+}
+/* ---------------menu------------------ */
+.menu {
+    padding: 50px 0;
+}
+.menu__title {
+    text-align: center;
+}
+.menu__card{
+    
+    
+    border-radius: 50%;
+   
+}
+.menu__card img{
+    max-width: 100%;
+  }
