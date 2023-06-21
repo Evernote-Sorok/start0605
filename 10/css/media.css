@@ -22,6 +22,28 @@
 }
 
 /* ----------menu-------- */
-@media(max-width:991px){
-    
+@media(max-width:576px){
+    .about {
+        background: url("../img/cafe-small.png");
+        background-size: cover;
+        background-position: center center;
+        min-width: 100%;
+        padding: 90px 0;
+    }
+    .collapse-bg-light{
+        background: #fff !important;
+        color: #000 !important;
+    }
+    .news-body__blok .row{
+        flex-direction: column;
+        row-gap: 10px;
+    }
+    .footer-contact,
+    .footer-contact a{
+        text-align: center;
+        padding-bottom: 50px;
+    }
+    .footer-copy{
+        text-align: center !important;
+    }
 }
