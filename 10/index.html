@@ -16,30 +16,27 @@
     <link rel="stylesheet" href="css/media.css">
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-success">
-      <div class="container">
-        <a class="navbar-brand header_blok__logo" href="#">Design Café</a>
-        <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse border-0 text-end" id="navbarSupportedContent">
-          <ul class="navbar-nav column-gap-4 ms-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link nav_list__item active" aria-current="page" href="#">Design Caféとは</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link nav_list__item" href="#">メニュー</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link nav_list__item" href="#">お問い合わせ</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link nav_list__item" href="#">お知らせ</a>
-            </li>
+    <header class="header">
+      <!-- Шапка -->
+      <div class="logo"><a href="#!">Design Café</a></div>
+
+      <!-- Меню сайта -->
+      <nav class="nav">
+          <ul>
+              <li><a href="#!">Design Caféとは</a></li>
+              <li><a href="#!">メニュー</a></li>
+              <li><a href="#!">お問い合わせ</a></li>
+              <li><a href="#!">お知らせ</a></li>
           </ul>
+      </nav>
+
+      <!-- Иконка бургерменю -->
+      <div class="burger-box">
+        <div class="burger">
+            <span></span>
         </div>
       </div>
-    </nav>
+  </header>
     <section class="grand-open">
         <div class="container">
             <h1 class="grand-open__title">Grand Open</h1>
@@ -118,5 +115,6 @@
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" 
     integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <script src="css/script.js"></script>
   </body>
 </html>

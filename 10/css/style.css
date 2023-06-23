@@ -23,10 +23,147 @@ body{
          url(..//fonts/shadows/ShadowsIntoLight.svg#ShadowsIntoLight) format('svg'),
          url(..//fonts/shadows/ShadowsIntoLight.otf) format('otf');
   }
+  @font-face {
+    font-family: 'GeorgiaRegularfont';
+    src: url(../fonts/georgia/GeorgiaRegularfont.eot);
+    src: url(../fonts/georgia/GeorgiaRegularfont.eot) format('embedded-opentype'),
+         url(../fonts/georgia/GeorgiaRegularfont.otf) format('otf'),
+         url(../fonts/georgia/GeorgiaRegularfont.svg) format('svg'),
+         url(../fonts/georgia/GeorgiaRegularfont.ttf) format('truetype'),
+         url(../fonts/georgia/GeorgiaRegularfont.woff) format('woff'),
+         url(../fonts/georgia/GeorgiaRegularfont.woff2) format('woff2');
+  }
+  /* font-family: 'GeorgiaRegularfont'; */
+
+
+  
 html,body{
     font-family: "YD Gothic 500", serif !important;
     font-size: 18px;
     font-weight: 500;
+}
+/* ------------header---------------- */
+.open{
+    display: flex !important;
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 100px;
+    background-color: #668E68;
+    color: #fff;
+    padding: 0 40px;
+    position: relative;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.logo a{
+    color: #fff;
+    text-decoration: none;
+    font-family: 'GeorgiaRegularfont';
+    font-size: 2.44rem;
+}
+
+.nav{
+    display: flex;
+    width: 600px;
+    padding: 0 40px;
+}
+.nav ul a{
+    color: #fff;
+    text-decoration: none;
+    
+}
+.nav ul a::after{
+    content: '';
+    display: block;
+    width: 100%;
+    height: 1px;
+    background: #ffffff;
+    transform: scaleX(0);
+    transition: all 0.5s;
+}
+.nav ul a:hover:after{
+    transform: scaleX(1);
+}
+
+.nav ul{
+    width: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0;
+}
+.burger-box{
+    display: block;
+    width: 50px;
+    height: 50px;
+    background: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.burger{
+    display: none;
+    position: relative;
+    z-index: 50;
+    align-items: center;
+    justify-content: flex-end;
+    width: 30px;
+    height: 18px;
+    background: transparent;
+}
+
+.burger span{
+    height: 2px;
+    width: 100%;
+    transform: scale(1);
+    background-color: #FAF6F2;
+    border-radius: 10px;
+}
+
+.burger::before, .burger::after{
+    content: '';
+    position: absolute;
+    height: 2px;
+    width: 100%;
+    border-radius: 10px;
+    background-color: #FAF6F2;
+    transition: all 0.3s ease 0s;
+}
+
+.burger::before { top: 0 }
+
+.burger::after { bottom: 0 }
+
+
+/* Добавляем класс active для анимации иконки бургера */
+.burger.active span { transform: scale(0) }
+
+.burger.active::before{
+    top: 50%;
+    transform: rotate(-45deg) translate(0, -50%);
+}
+
+.burger.active::after{
+    bottom: 50%;
+    transform: rotate(45deg) translate(0, 50%);
+}
+
+
+/* При разрешении экрана 900px и ниже, выводим на экран иконку бургера */
+
+
+@keyframes burgerAnimation {
+    from {opacity: 0}
+    to {opacity: 1}
 }
 /* -------------------- */
 .header_blok__logo{
@@ -66,7 +203,6 @@ html,body{
 }
 .menu__title {
     text-align: center;
-
 }
 .menu_item{
     padding: 20px 0;
@@ -80,17 +216,12 @@ html,body{
     font-weight: 400;
     line-height: 1.66rem;
 }
-.menu__card{
-  
-}
-
 .menu__card img{
     max-width: 100%;
   }
 .menu .container .row .border-5{
     border: 10px solid #913d26 !important;
 }
-
 .row {
     --bs-gutter-x: 1.5rem;
     --bs-gutter-y: 0;
@@ -107,8 +238,6 @@ html,body{
     background-position: center center;
     min-width: 100%;
     padding: 145px 0;
-}
-.container {
 }
 .about__title {
     font-family: 'ShadowsIntoLight';
@@ -134,12 +263,6 @@ html,body{
 .about-button button{
     width: 160px; 
 }
-.btn {
-}
-.btn-success {
-}
-.about__btn{}
-
 /* ------------news--------------- */
 .news{
     padding: 80px 0;

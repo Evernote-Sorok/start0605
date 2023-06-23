@@ -47,3 +47,46 @@
         text-align: center !important;
     }
 }
+
+@media (max-width: 900px) {
+
+    .burger { 
+        display: flex;
+     }
+     .burger.active{
+        position: relative;
+     }
+     .burger-box{
+        background: #668E68;
+        z-index: 50;
+    }
+    .nav{
+        display: none;
+        flex-direction: column;
+        position: fixed;
+        height: 100%;
+        width: 100%;
+        top: 0; bottom: 0; left: 0; right: 0;
+        z-index: 50;
+        overflow-y: auto;
+        padding: 50px 40px;
+        background-color: rgb(255, 255, 255);
+        animation: burgerAnimation 0.4s;
+    }
+    .burger::before { top: 0; }
+
+    .burger::after { bottom: 0; }
+
+    .nav ul li a{
+        color: #668E68;
+        font-size: 18px;
+    }
+
+    .nav ul{
+        position: relative;
+        top: 50px;
+        align-items: center;
+        flex-direction: column;
+        row-gap: 30px;
+    }
+}
