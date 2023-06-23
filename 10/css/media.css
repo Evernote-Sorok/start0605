@@ -54,7 +54,9 @@
         display: flex;
      }
      .burger.active{
-        position: relative;
+        position: fixed;
+        top: 35px;
+        right: 40px;
      }
      .burger-box{
         background: #668E68;
@@ -73,9 +75,9 @@
         background-color: rgb(255, 255, 255);
         animation: burgerAnimation 0.4s;
     }
-    .burger::before { top: 0; }
+    .burger::before { top: 10px; }
 
-    .burger::after { bottom: 0; }
+    .burger::after { bottom: 10px; }
 
     .nav ul li a{
         color: #668E68;

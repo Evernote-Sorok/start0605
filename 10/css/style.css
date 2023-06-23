@@ -100,30 +100,22 @@ html,body{
     justify-content: space-between;
     margin-bottom: 0;
 }
-.burger-box{
-    display: block;
-    width: 50px;
-    height: 50px;
-    background: transparent;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
+
 
 .burger{
     display: none;
     position: relative;
     z-index: 50;
     align-items: center;
-    justify-content: flex-end;
-    width: 30px;
-    height: 18px;
-    background: transparent;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    background: #668E68;
 }
 
 .burger span{
     height: 2px;
-    width: 100%;
+    width: 80%;
     transform: scale(1);
     background-color: #FAF6F2;
     border-radius: 10px;
@@ -133,7 +125,7 @@ html,body{
     content: '';
     position: absolute;
     height: 2px;
-    width: 100%;
+    width: 80%;
     border-radius: 10px;
     background-color: #FAF6F2;
     transition: all 0.3s ease 0s;
